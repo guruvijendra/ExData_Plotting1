@@ -9,12 +9,3 @@ plot(timeperiod,dfsubset$Sub_metering_1,col="gray",type="l",ylab = "Energy Sub M
 points(timeperiod,dfsubset$Sub_metering_2,col="red",type="l")
 points(timeperiod,dfsubset$Sub_metering_3,col="blue",type="l")
 plot(timeperiod,dfsubset$Global_reactive_power,type="l",ylab = "Global Reactive Power")
-
-#plot(timeperiod,dfsubset$Sub_metering_1,xlab=" ", ylab="Energy Sub Metering",type="n")
-#points(timeperiod,dfsubset$Sub_metering_1,col="gray",type="l")
-#points(timeperiod,dfsubset$Sub_metering_2,col="red",type="l")
-#points(timeperiod,dfsubset$Sub_metering_3,col="blue",type="l")
-#legend("topright",pch = c("-","-","-"),col=c("gray","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
-
-#globalactivepower <- as.numeric(dfsubset$Global_active_power)
-
